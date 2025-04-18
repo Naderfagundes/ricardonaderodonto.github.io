@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Ricardo Nader • Links</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0d0d0d;
+      --card:#1e1e1e;
+      --accent:#77cdfb; /* mude para a cor da sua marca */
+      --text:#f1f1f1;
+    }
+    *{box-sizing:border-box;}
+    body{
+      margin:0;
+      font-family:'Poppins',sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      min-height:100vh;
+    }
+    .profile-pic{
+      width:120px;
+      height:120px;
+      border-radius:50%;
+      object-fit:cover;
+      margin-top:40px;
+      border:3px solid var(--accent);
+    }
+    h1{font-size:1.6rem;margin:1rem 0 .3rem;text-align:center;}
+    .subtitle{font-size:.9rem;color:var(--accent);margin-bottom:1.5rem;text-align:center;}
+    .links{width:90%;max-width:360px;display:flex;flex-direction:column;align-items:center;}
+    .link-btn{
+      width:100%;
+      text-align:center;
+      padding:14px 0;
+      margin:6px 0;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      background:var(--card);
+      color:var(--text);
+      border:2px solid var(--accent);
+      transition:background .2s,color .2s;
+    }
+    .link-btn:hover{background:var(--accent);color:var(--bg);}
+    footer{font-size:.75rem;margin:40px 0 20px;color:#777;text-align:center;}
+  </style>
+</head>
+<body>
+  <img src="profile.jpg" alt="Foto Dr. Ricardo Nader" class="profile-pic">
+  <h1>Dr. Ricardo Nader</h1>
+  <p class="subtitle">Digital Dentist • 20&nbsp;anos em Odontologia Digital</p>
+
+  <div class="links">
+    <a class="link-btn" href="https://wa.me/5577998520406?text=Olá%20Dr.%20Ricardo,%20quero%20agendar%20uma%20consulta.">WhatsApp</a>
+    <a class="link-btn" href="https://www.youtube.com/user/naderfagundes" target="_blank">YouTube</a>
+    <a class="link-btn" href="https://calendly.com/SEU-USUARIO/consulta-digital" target="_blank">Agendar Consulta</a>
+    <a class="link-btn" href="https://instagram.com/ricardonaderodonto" target="_blank">Instagram</a>
+  </div>
+
+  <footer>&copy; 2025&nbsp;Dr. Ricardo Nader • Guanambi, BA</footer>
+</body>
+</html>
